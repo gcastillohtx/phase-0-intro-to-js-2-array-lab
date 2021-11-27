@@ -17,6 +17,15 @@ function appendCat(name) {
 function prependCat(name) {
   return [name, ...cats]
 }
-function removelastCat(){
-  return cats.slice(0, -1)
+function removeLastCat() {
+ const removeLastCat = cats.slice(0,2)
+  return removeLastCat;
+}
+
+function removeFirstCat() {
+  const removeFirstCat = cats.slice(1)
+  return removeFirstCat;
+}
+
+
 
